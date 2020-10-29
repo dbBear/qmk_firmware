@@ -63,7 +63,7 @@ bool led_update_user(led_t led_state) {
 /* #ifdef RGBLIGHT_ENABLE */
 void keyboard_post_init_user(void) {
   rgblight_enable_noeeprom();
-  rgblight_sethsv_noeeprom(213, 255, 170);
+  rgblight_sethsv_noeeprom(43,255,120);
   rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
 }
 /* #endif */
